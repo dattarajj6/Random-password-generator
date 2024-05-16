@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  margin-right: 1em;
+  font-size: 1.2em;
+  color: #333;
+}
+
+input[type="number"] {
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+
+button.btn {
+  font-size: 1.2em;
+  padding: 0.5em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+button.btn:hover {
+  background-color: #3e8e41;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+#password-container {
+  margin-top: 1em;
+}
+
+#copy-password-button {
+  background-color: #4CAF50;
+}
+
+#copy-password-button:hover {
+  background-color: #3e8e41;
+}
+
+#exit-button {
+  background-color: #F44336;
+}
+
+#exit-button:hover {
+  background-color: #D32F2F;
+}
+
+#lock-image {
+  width: 256px;
+  height: 256px;
+  margin-top: 2em;
+}
+
+@media (max-width: 500px) {
+  #lock-image {
+    width: 192px;
+    height: 192px;
+    margin-top: 1em;
+  }
+}

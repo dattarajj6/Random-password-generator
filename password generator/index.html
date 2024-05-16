@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Password Generator</h1>
+    <div class="form-group">
+      <label for="password-length">Password Length:</label>
+      <input type="number" id="password-length" value="12" min="4" max="64">
+    </div>
+    <button id="generate-password" class="btn">Generate Password</button>
+    <button id="exit-button" class="btn">Exit</button>
+    <div id="password-container">
+      <p id="password"></p>
+      <button id="copy-password-button" class="btn">Copy Password</button>
+    </div>
+    <img src="lock.png" alt="Lock" id="lock-image">
+    <script src="script.js"></script>
+  </body>
+</html>
